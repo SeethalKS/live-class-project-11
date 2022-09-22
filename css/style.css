@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    /* padding: 20px 80px 20px 80px; */
+    
+  }
+  #navSection
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 20px 60px 20px 100px;  
+    
+  }
+  .logo
+  {
+    width:90px;
+  }
+  .list{
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #808080;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    cursor: pointer;
+  }
+  .nav-item:hover{
+    
+    color:black;
+  }
+  .btns{
+    margin-top: -10px;
+    padding: 10px 20px 10px 20px; 
+    color:#38B2FF;
+    background-color: transparent;
+    border-radius:0.5em ;
+    border: 2px solid #38B2FF;
+    cursor: pointer;
+  }
+  .Heading
+  {
+    margin-top: 50px;
+    display: flex;
+    padding: 20px 60px 20px 100px;  
+  
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  
+  .Heading p{
+    margin-top: 20px;
+    color: #808080;
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+  }
+  .bolt img{
+    margin-right:5px;
+    padding-left: 100px;
+    height: 300px;
+    
+  }
+  
+  .btn{
+    margin-top: 20px;
+    font-family:'Montserrat', sans-serif;
+    color: #eeee;
+    background: linear-gradient(to right, #3bb1ff9a, #0893f0 );
+    border-radius:0.5em ;
+    padding: 10px 20px 10px 20px; 
+    border: 2px solid #ffffff;
+    cursor: grab;
+  }
+  .heading2{
+    
+   margin-left: 20px;
+   padding: 20px 60px 20px 100px;  
+    margin-top: 100px;
+    display: flex;
+    gap: 5px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  .heading2 div{
+    margin-left:160px;
+  }
+  .heading2 p{
+    margin-top: 20px;
+    color: #808080;
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+  }
+  .heading3{
+    display: flex;
+    gap: 5px;
+    padding: 20px 60px 20px 100px;  
+    
+    margin-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  .heading3 p{
+    margin-top: 20px;
+    color: #808080;
+    font-family:'Montserrat', sans-serif;
+    font-size:15px;
+  }
+  .heading4{
+    margin-top: 100px;
+    
+    display: flex;
+    padding: 20px 60px 20px 100px;  
+  }
+  .heading4 div{
+ 
+   width: 500px;
+  }
+  .heading4 p{
+    margin-left:55px;
+    margin-top: 10px;
+    color: #808080;
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+  }
+  .services{
+    font-family: 'Ubuntu', sans-serif;
+   
+    display: flex;
+    gap: 30px;
+   margin-top: 15px;
+   padding: 20px 80px 20px 100px;  
+  }
+  .services img{
+    height: 60px;
+    width: 80px;
+  }
+ 
+  .services p{
+    color: #808080;
+    font-family:'Montserrat', sans-serif;
+    font-size:13px;
+    margin-top: 10px;
+  }
+  .services2{
+    font-family: 'Ubuntu', sans-serif;
+    
+    display: flex;
+    gap: 30px;
+   margin-top: 15px;
+   padding: 20px 80px 20px 100px;  
+  }
+  .services2 img{
+    height: 60px;
+    width: 70px;
+  }
+  .services2 p{
+    color: #808080;
+    font-family:'Montserrat', sans-serif;
+    font-size:13px;
+    margin-top: 10px;
+  }
+  .pricing{
+    
+    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 60px;
+    background: linear-gradient(to right bottom, #3bb1ff9a, #0893f0 );
+  }
+  .pricing h1{
+    padding-top: 50px;
+    color: #ffffff;
+    margin-left: 500px;
+  }
+  .packs{
+    
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+    padding: 20px 80px 20px 100px;  
+  }
+  .start{
+    background-color: #ffffff;
+    
+    border-radius: .4em;
+    width: 300px;
+    padding-bottom: 25px;
+  }
+  .start h3{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .start h4{
+    margin-top:10px;
+    margin-left: 20px;
+    color: #808080;
+    font-size: 11px;
+  }
+  .start ul{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:30px;
+    list-style: none;
+  }
+  .start li{
+    margin-left: 20px;
+    margin-top:10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .arrow-tick {
+    border: 2px solid #90ee90;
+    border-radius: 50px;
+    padding: 3px;
+    color: #90ee90;
+    margin-right: 15px;
+}
+.btnpacks{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.dollar{
+  margin-left: 40px;
+}
+.dollar h4{
+  margin-left: 40px;
+}
+.dollar span{
+  color: #808080;
+}
+.starts:hover{
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+}
+.btnpacks:hover{
+  border: 2px solid #ffffff;
+  color: #eeee;
+  background: linear-gradient(to right, #3bb1ff9a, #0893f0 );
+}
+.end{
+  padding: 20px 80px 20px 80px;  
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 120px;
+}
+.end h1{
+
+  font-size: 50px;
+  margin-left: 300px;
+}
+.end p{
+  margin-top: 10px;
+  color: #808080;
+  padding-left: 100px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+}
+.quote
+{
+  margin-top: 20px;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 20px 80px 20px 80px;  
+}
+.quotes{
+  
+  
+  background-color: #ffffff;
+  border:2px solid #8080803b;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 40px;
+}
+.quotes p{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.dot
+{
+  margin-top: 20px;
+  margin-left: 20px;
+    font-size: 70px;
+    color: #80808098;
+    margin-right: 15px;
+}
+.quotes h3{
+  margin-top: -60px;
+  margin-left: 100px;
+}
+.quotes h4{
+  color: #808080;
+  font-size: 12px;
+  margin-left: 100px;
+}
+.service{
+    display: flex;
+    gap:200px;
+    color: #ffffff;
+    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 60px;
+    background: linear-gradient(to right bottom, #3bb1ff9a, #0893f0 );
+    padding: 20px 80px 20px 100px;  
+  }
+.service div{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.service h1{
+ line-height: 40px;
+  padding-bottom: 20px;
+}
+.service button{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.footer{
+  cursor: grab;
+  margin-top: 100px;
+  display: flex;
+  gap:50px;
+  width: 100vw;
+  padding: 20px 20px 20px 100px;  
+  font-family: 'Montserrat', sans-serif;
+}
+.footerlogo img{
+  height: 30px;
+}
+.footerlogo p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+.footermenu ul{
+  margin-top: 10px;
+  line-height: 30px;
+  list-style: none;
+}
+.footersocial h3{
+   margin-left: -10px;
+}
+.footersocial div{
+  margin-left: -5px;
+}
+.footersocial img{
+  margin-top: 15px;
+  height: 23px;
+}
